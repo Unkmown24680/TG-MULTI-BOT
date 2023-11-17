@@ -4,17 +4,17 @@ from os import environ
 
 id_pattern = re.compile(r'^.\d+$')
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6887245348:AAG-WoxzXXXRgEuOpASVfd7Zzu2SLRHBrvo")
 
-API_ID = int(os.environ.get("API_ID", ""))
+API_ID = int(os.environ.get("API_ID", "28625475"))
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "da4894b36ca60168ba283519ed551606")
 
-PICS = os.environ.get("PICS", "https://telegra.ph/file/34fd203eb89fd747ffb57.jpg").split()
+PICS = os.environ.get("PICS", "https://telegra.ph/file/916286a7d8652606ce806.jpg").split()
 
-ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '900873119').split()]
+ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1720819569').split()]
 
-DB_URL = os.environ.get("DB_URL", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://dohoj11515:f5VibAbQ4LVHpQ5n@cluster0.h3s7s7p.mongodb.net/?retryWrites=true&w=majority")
 
 DB_NAME = os.environ.get("DB_NAME", "tg-multi-bot")
 
